@@ -1,0 +1,15 @@
+; test 3
+.entry TEST3
+.extern L
+	rts
+	add #20, r6
+MAIN: add #70, r7
+prn r6
+	clr r2
+add #1027, r6
+jsr TEST3
+	dec r2
+	TEST3: sub #-7, r5
+add L, r5
+sub L, r6
+.entry MAIN
