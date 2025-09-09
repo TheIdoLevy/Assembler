@@ -18,7 +18,7 @@ This project was built from scratch as a final course project for university.
 
 ### 1. Clone the repo
 bash
-git clone https://github.com/your-username/your-assembler.git
+git clone https://github.com/TheIdoLevy/Assembler-for-custom-Assembly-Language
 cd your-assembler
 
 ### 2. Build with make
