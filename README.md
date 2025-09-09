@@ -19,7 +19,7 @@ This project was built from scratch as a final course project for university.
 ### 1. Clone the repo
 bash
 git clone https://github.com/TheIdoLevy/Assembler
-cd your-assembler
+cd Assembler
 
 ### 2. Build with make
 make
