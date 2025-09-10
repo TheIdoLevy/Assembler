@@ -36,7 +36,7 @@ Important node: This assembler only assembles the code, without the linking and 
 
 Given valid input files, the assembler will output 4 files per input file;
 1) a .am file, containig the spread  macros.
-2) a .obj file containing the assemble binary code of the file (formatted to binary).
+2) a .obj file containing the assemble binary code of the file (formatted to hex).
 3) a .ent file, containing all labels declared as .entry in the file
 4) a .ext file, containig all labels declared as external in the file
 
